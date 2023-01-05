@@ -3,8 +3,9 @@ import Styles from "./loading.module.css";
 
 const loading = () => {
   return (
-    <div className="flex w-full h-[100vh] justify-center items-center">
-      <div class={Styles.spinner}>
+    <div className="flex w-full justify-center items-center">
+        <div>
+        <div class={Styles.spinner}>
         <div></div>
         <div></div>
         <div></div>
@@ -12,7 +13,8 @@ const loading = () => {
         <div></div>
         <div></div>
       </div>
-      sa
+        </div>
+      
     </div>
   );
 };
